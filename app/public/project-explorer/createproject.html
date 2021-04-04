@@ -1,0 +1,92 @@
+<! DOCTYPE html>
+    <html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    </head>
+    <header>
+
+        <body>
+            <header>
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary ">
+                    <a class="navbar-brand" href="#">Project Explorer</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search Projects"
+                            aria-label="Search">
+                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+
+                    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Submit<span class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Signup<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li><a class="nav-link" href="#">Login<span class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+
+            
+            <div class="mx-auto" style="width: 500px;">
+                <div class="w-75">
+                    <h3>Submit Project</h3>
+                    <form name="submitProject">
+                        <label>Project Name:</label>
+                        <br>
+                        <input type="text" name="name" placeholder="Enter project name" class="form-control"
+                            class="form-group" class="form-label"/>
+                        <br>
+                        <br>
+
+                        <label>Project Abstract:</label>
+                        <br>
+                        <textarea type="text" name="abstract" class="form-control"
+                        class="form-group" class="form-label"></textarea>
+                        <br>
+                        <br>
+
+                        <label>Authors:</label>
+                        <br>
+                        <input type="text" name="authors" placeholder="Enter author names (separated by commas)" class="form-control"
+                        class="form-group" class="form-label"/>
+                        <br>
+                        <br>
+
+                        <label>Tag(s):</label>
+                        <br>
+                        <input type="text" name="tags"
+                            placeholder="Use # to tag project with different topics(e.g #javascript #mongoDB)" class="form-control"
+                            class="form-group" class="form-label"/>
+                        <br>
+                        <br>
+
+                        <button type="button" class="btn btn-primary">Continue</button>
+
+                    </form>
+            </div>    
+                </div>    
+                    <footer class="pull-right">
+                        <p>Project Explorer&copy; 2020 - Edconnect</p>
+                    </footer>
+
+    </html>
